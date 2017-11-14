@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="client.jnlp">
+  <information>
+    <title>client</title>
+    <vendor>Unknown</vendor>
+    <description>clientserverTest1</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="1\clientserverTest1.jar" size="6764" download="eager" />
+    <jar href="client.jar" size="7974" download="eager" />
+    <jar href="server.jar" size="6618" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="client.clientFace"  name="clientserverTest1" />
+  <update check="background"/>
+</jnlp>
